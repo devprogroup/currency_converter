@@ -43,8 +43,6 @@ log/
 *.log.*
 
 ## Ignore environment files
-.env
-.env.*
 
 ## Ignore ReSharper
 _ReSharper*/
@@ -71,3 +69,5 @@ otel-collector.log
 ## Ignore local config
 appsettings.Development.json
 appsettings.Local.json
+config.bat
+node_modules

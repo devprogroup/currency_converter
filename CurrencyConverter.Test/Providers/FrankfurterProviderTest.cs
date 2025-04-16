@@ -104,8 +104,6 @@ public class FrankfurterProviderTests
         Assert.True(result.Rates.ContainsKey("EUR"));
     }
 
-
-
     [Fact]
     public async Task ConvertCurrencyAsync_ShouldReturnConvertedAmount()
     {
